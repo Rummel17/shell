@@ -358,7 +358,7 @@ footer {
 @media all and (max-width: 670px) and (orientation: portrait){
 
 footer {
-  height: 60rem;
+  height: 1rem;
 }
 .footer {
   -webkit-box-pack: center;
