@@ -3,50 +3,69 @@ html, body {
   font-family: "helvetica", sans-serif;
   font-size: 18px;
 }
+
 /* header section */
 header {
+  height: 480px;
   height: 30rem;
   width: 100%;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-size: cover;
   background-position: center;
+  padding-top: 16px;
   padding-top: 1rem;
 }
 
 /*  navigation section */
 
 nav {
+  width: 853.332px;
   width: 53.3333rem;
   background-color: cadetblue;
   opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 nav img {
+  height: 24px;
   height: 1.5rem;
+  padding: 16px 16px 16px 32px;
   padding: 1rem 1rem 1rem 2rem;
 
 }
 
 .company-name {
   color: white;
+  font-size: 16px;
   font-size: 1rem;
+  padding: 16px 0;
   padding: 1rem 0;
 }
 
 span.nav {
   color: white;
+  padding: 16px 32px 16px 0;
   padding: 1rem 2rem 1rem 0;
 }
 span.nav-small {
   display: none;
   color: white;
+  padding: 16px 32px 16px 0;
   padding: 1rem 2rem 1rem 0;
 }
 
@@ -82,21 +101,30 @@ span.nav-small {
 
 /* headline */
 .container {
+  width: 853.332px;
   width: 53.3333rem;
   opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .headline {
     background-color: white;
+    margin: 160px -32px 0px 0px;
     margin: 10rem -2rem 0rem 0rem;
 }
 
 .headline h1 {
+  padding: 24px 80px;
   padding: 1.5rem 5rem;
   font-weight: bold;
+  font-size: 32px;
   font-size: 2rem;
   line-height: 1.2;
 }
@@ -125,29 +153,48 @@ span.nav-small {
 
 /* main section */
 .container-main {
+  width: 853.332px;
   width: 53.3333rem;
   opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   margin: 0 auto;
 }
 .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section{
+    margin-top: 48px;
     margin-top: 3rem;
 }
 
 .service {
+  width: 80px;
   width: 5rem;
+  height: 128px;
   height: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .service.paper, .service.ruler {
+  margin-right: 96px;
   margin-right: 6rem;
 }
 
@@ -155,32 +202,46 @@ section{
   text-align: center;
 }
 .ruler img, .truck img {
+  width: 80px;
   width: 5rem;
 }
 .paper img {
+  width: 56px;
   width: 3.5rem;
 }
 
 .info-containter {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .info {
   width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-right: 5%;
 }
 
 span.title {
+  max-width: 160px;
   max-width: 10rem;
+  padding: 8px 20px;
   padding: 0.5rem 1.25rem;
   background-color: cadetblue;
   font-weight: bold;
   color: white;
 }
 p {
+  margin: 16px 0px 80px 0px;
   margin: 1rem 0rem 5rem 0rem;
   line-height: 1.2;
 }
@@ -188,10 +249,18 @@ p {
 @media all and (max-width: 670px){
 
 .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin: 3.77rem 0rem;
 }
 .service.paper, .service.ruler, .service.truck {
@@ -208,15 +277,29 @@ p {
 .service {
   width: 5rem;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
   .info-containter {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
 .info {
@@ -238,22 +321,31 @@ span.title {
 /* footer section */
 
 footer {
+  width: 912px;
   width: 57rem;
   opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   margin: 0 auto;
   background-color: azure;
 }
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer img {
+  padding: 64px 0px 64px 64px;
   padding: 4rem 0rem 4rem 4rem;
+  height: 24px;
   height: 1.5rem;
 }
 .footer span {
   color: black;
+  padding: 64px 0px 64px 16px;
   padding: 4rem 0rem 4rem 1rem;
 }
 
@@ -263,7 +355,9 @@ footer {
   width:100%;
 }
 .footer {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .footer span {
   display: none;
