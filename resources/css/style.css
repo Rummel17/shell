@@ -327,6 +327,7 @@ footer {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   margin: 0 auto;
   background-color: azure;
+  height: 10rem;
 }
 .footer {
   display: -webkit-box;
@@ -370,5 +371,5 @@ footer {
 
 }
 main {
-  height: calc(100vh-24px)
+  height: calc(100vh -10rem)
 }
