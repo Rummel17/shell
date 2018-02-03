@@ -79,7 +79,7 @@ span.nav-small {
   }
 }
 
-@media all and (max-width: 1024px){
+@media all and (max-width: 670px){
 .company-name {
   display: none;
 }
@@ -139,7 +139,7 @@ span.nav-small {
     font-size: 1.33rem;
   }
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 670px){
 
 .headline {
   margin: 9rem 0;
@@ -246,7 +246,7 @@ p {
   line-height: 1.2;
 }
 
-@media all and (max-width: 1024px){
+@media all and (max-width: 670px){
 
 .services {
   display: -webkit-box;
@@ -356,7 +356,7 @@ footer {
   }
 }
 
-@media all and (max-width: 1024px) and (orientation: portrait){
+@media all and (max-width: 670px) and (orientation: portrait){
 
 footer {
   height: 60rem;
