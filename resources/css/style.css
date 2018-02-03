@@ -63,3 +63,89 @@ span.nav {
   font-size: 2rem;
   line-height: 1.2;
 }
+/* main section */
+.container-main {
+  width: 960px;
+  opacity: 0.8;
+  margin: 0 auto;
+}
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+section{
+    margin-top: 3rem;
+}
+
+.service {
+  width: 5rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service.paper, .service.ruler {
+  margin-right: 6rem;
+}
+
+.description {
+  text-align: center;
+
+}
+.ruler img, .truck img {
+  width: 5rem;
+}
+.paper img {
+  width: 3.5rem;
+}
+
+.info-containter {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+span.title {
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+}
+p {
+  margin: 1rem 0rem 5rem 0rem;
+  line-height: 1.2;
+}
+
+
+
+/* footer section */
+
+footer {
+  width: 1024px;
+  opacity: 0.8;
+  margin: 0 auto;
+  background-color: azure;
+}
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  padding: 4rem 0rem 4rem 4rem;
+  height: 1.5rem;
+}
+.footer span {
+  color: black;
+  padding: 4rem 0rem 4rem 1rem;
+}
