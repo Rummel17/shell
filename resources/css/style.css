@@ -350,17 +350,9 @@ footer {
   padding: 4rem 0rem 4rem 1rem;
 }
 
-@media all and (max-width: 1024px) and (orientation: portrait){
-  footer {
-    height: 20rem;
-  }
-}
 
-@media all and (max-width: 670px) and (orientation: portrait){
+@media all and (max-width: 670px){
 
-footer {
-  height: 20rem;
-}
 .footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
