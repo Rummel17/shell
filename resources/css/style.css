@@ -326,7 +326,7 @@ footer {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   margin: 0 auto;
-  background-color: blue;
+  background-color: azure;
 
 }
 .footer {
@@ -352,13 +352,13 @@ footer {
 
 @media all and (max-width: 1024px) and (orientation: portrait){
   footer {
-    height: 15rem;
+    height: 20rem;
   }
 }
 @media all and (max-width: 670px) and (orientation: portrait){
 
 footer {
-  height: 15rem;
+  height: 20rem;
 }
 .footer {
   -webkit-box-pack: center;
