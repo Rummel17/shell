@@ -200,6 +200,7 @@ section{
 
 .description {
   text-align: center;
+  line-height: 1.2;
 }
 .ruler img, .truck img {
   width: 80px;
